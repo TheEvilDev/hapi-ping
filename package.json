@@ -1,0 +1,24 @@
+{
+  "name": "hapi-ping",
+  "version": "1.0.0",
+  "description": "Hapi plugin that adds a simple \"ping\" endpoint that can be used by clients to determine service availability",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TheEvilDev/hapi-ping.git"
+  },
+  "keywords": [
+    "hapi",
+    "node",
+    "REST"
+  ],
+  "author": "Mitchell Lee <mitch@evildev.net> (http://blog.evildev.net)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheEvilDev/hapi-ping/issues"
+  },
+  "homepage": "https://github.com/TheEvilDev/hapi-ping"
+}
