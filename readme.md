@@ -15,7 +15,7 @@ body will be when the service is successful. (Generally I just return the servic
     makes it easy to get service version information etc);
 
 ### Example
-
+```javascript
     var server = new Hapi.Server();
 
     server.connection({
@@ -35,3 +35,4 @@ body will be when the service is successful. (Generally I just return the servic
       });
 
     server.start();
+```
