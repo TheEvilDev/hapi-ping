@@ -7,6 +7,9 @@ exports.register = function(server, options, next) {
         path: endpoint,
         handler: function(request, reply) {
             reply(response);
+        },
+        config: {
+            description: 'Simple endpoint to determine service availability. Returns 200 if successful. No required parameters, simply "ping it"'
         }
     });
 
