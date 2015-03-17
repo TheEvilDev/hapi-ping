@@ -24,7 +24,9 @@ Defaults to `'/ping'`
 
 ### `response`
 
-The response to send when an incoming request hits the ping endpoint. This can be any type of object that hapi's `reply` interface accepts or a function that returns any type of object that hapi's `reply` interface accepts. Set this to a function if the desire is to return dynamic data. Defaults to `'Success'`
+The response to send when an incoming request hits the ping endpoint. This can be any type of object that hapi's `reply` interface accepts or a function that returns any type of object that hapi's `reply` interface accepts. Set this to a function if the desire is to return dynamic data.
+
+Defaults to `'Success'`
 
 ## Example
 ```javascript
