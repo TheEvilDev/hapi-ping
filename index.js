@@ -1,6 +1,6 @@
 exports.register = function(server, options, next) {
-    endpoint = options.endpoint || '/ping';
-    response = options.response || 'Success';
+    var endpoint = options.endpoint || '/ping';
+    var response = options.response || 'Success';
 
     server.route({
         method: 'GET',
