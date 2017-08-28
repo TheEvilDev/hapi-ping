@@ -9,7 +9,8 @@ exports.register = function(server, options, next) {
             reply((typeof(response) === 'function') ? response() : response);
         },
         config: {
-            description: 'Simple endpoint to determine service availability. Returns 200 if successful. No required parameters, simply "ping it"'
+            description: 'Simple endpoint to determine service availability. Returns 200 if successful. No required parameters, simply "ping it"',
+            tags: ['ping']
         }
     });
 
